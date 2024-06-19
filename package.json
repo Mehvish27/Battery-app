@@ -1,0 +1,25 @@
+{
+  "name": "battery-app",
+  "version": "1.0.0",
+  "description": "asdf",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "author": "r",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^19.0.9",
+    "electron-builder": "^23.3.3"
+  },
+  "build": {
+    "appId": "com.rokof.battery-app",
+    "productName": "Battery & Clock App",
+    "target": "NSIS",
+    "nsis": {
+      "allowToChangeInstallationDirectory": true,
+      "oneClick": false
+    }
+  }
+}
