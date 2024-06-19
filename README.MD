@@ -1,5 +1,5 @@
 ```bash
-git clone  https://github.com/rfumic/battery-app.git
+git clone 
 ```
 
 ```bash
